@@ -9,6 +9,10 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.interfaces.DraweeController;
 import com.facebook.drawee.view.SimpleDraweeView;
 
+/**
+ * 在xml文件中定义一些属性，如正在加载图，失败图，圆形图，圆角图等等。
+ * 在第二个module（app2）中采用代码的形式加载本modul的一些功能
+ */
 public class MainActivity extends AppCompatActivity {
 
     private SimpleDraweeView draweeView;
